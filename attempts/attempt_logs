@@ -1,0 +1,5 @@
+Attempt 1
+Change Type: focal_loss
+Description: Replaced CrossEntropyLoss with FocalLoss (gamma=2.0) to reduce impact of class imbalance.
+Result: PASS
+Validation F1 improved slightly over baseline (observed via local split).
